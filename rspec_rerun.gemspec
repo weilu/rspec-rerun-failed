@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Wei Lu"]
   gem.email         = ["luwei.here@gmail.com"]
   gem.description   = %q{Rerun the previously failed specs}
-  gem.summary       = %q{Rerun the previously failed specs}
-  gem.homepage      = ""
+  gem.summary       = %q{}
+  gem.homepage      = "https://github.com/weilu/rspec-rerun"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -19,3 +19,4 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rspec"
 end
+
