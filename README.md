@@ -1,6 +1,6 @@
-# Rspec::Rerun
+# RspecRerun
 
-TODO: Write a gem description
+Rerun the previously failed specs
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First load the rake task:
+For example, in a rails app under lib/tasks, create a file `rspec-rerun.rake` with
+
+    load "tasks/rspec.rake"
+
+Then invoke the rake task:
+
+    rake spec:rerun
 
 ## Contributing
 
