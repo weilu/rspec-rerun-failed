@@ -1,4 +1,4 @@
-# RspecRerun
+# rspec-rerun-failed
 
 Rerun the previously failed specs
 
@@ -6,7 +6,7 @@ Rerun the previously failed specs
 
 Add this line to your application's Gemfile:
 
-    gem 'rspec-rerun'
+    gem 'rspec-rerun-failed'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rspec-rerun
+    $ gem install rspec-rerun-failed
 
 ## Usage
 

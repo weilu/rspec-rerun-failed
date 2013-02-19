@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rspec_rerun'
 
 Gem::Specification.new do |gem|
-  gem.name          = "rspec-rerun"
+  gem.name          = "rspec-rerun-failed"
   gem.version       = RspecRerun::VERSION
   gem.authors       = ["Wei Lu"]
   gem.email         = ["luwei.here@gmail.com"]
